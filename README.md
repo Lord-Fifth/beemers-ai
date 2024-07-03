@@ -57,9 +57,12 @@
 
 ## Setting Up Beem 2.0 
 ### Prerequisites 
+- Ngrok 
 - Node.js 
 - Flutter SDK 
-- Dart SDK 
+- Dart SDK
+- Firebase
+- OpenAI
 - Access to a DigiByte node 
 
 ### Step-by-Step Guide
