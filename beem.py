@@ -1,7 +1,6 @@
 from openai import OpenAI
 
 # Set up your OpenAI API key
-# openai.api_key = 'sk-proj-3BZCX2M7XwLxMB4SjMHfT3BlbkFJDGRkHIOreU2iUsWgIaO9'
 
 def generate_spending_insights(transaction_history):
     # Prepare the prompt with user's transaction history
