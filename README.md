@@ -1,24 +1,34 @@
 
+
 # Beem 2.0 - StartUp Link x Beem AI
 
 ##### [beemers-ai]
 #### Beem 2.0 is an integrated solution that combines a payment app, spend analysis, expense tracking, and a blockchain-based helpdesk system. This project leverages multiple open-source repositories to provide a comprehensive platform for managing finances and resolving disputes.
 
 ### Key Components: 
-1. **Payment App**: [Payflow](https://github.com/felipecastrosales/payflow) 
-2. **Spend Analysis**: [Bahi-Khata](https://github.com/Bahi-Khata-App/Bahi-Khata) 
-3. **Expense Tracking**: 
+1. **NLP User Persona**:
+		- [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)
+		- [NLP Recipes](https://github.com/microsoft/nlp-recipes)
+		- [FLair](https://github.com/flairNLP/flair)
+3. **Payment App**: [Payflow](https://github.com/felipecastrosales/payflow) 
+4. **Spend Analysis**: [Bahi-Khata](https://github.com/Bahi-Khata-App/Bahi-Khata) 
+5. **Expense Tracking**: 
 		- [Expenso](https://github.com/Spikeysanju/Expenso) 
 		- [Zero](https://github.com/indranilbhuin/zero) 
-4. **UPI Payments**: [GpayApp-Flutter](https://github.com/muhammad-fiaz/GpayApp-Flutter) 
-5. **Receipt Scanning**: 
+6. **UPI Payments**: [GpayApp-Flutter](https://github.com/muhammad-fiaz/GpayApp-Flutter) 
+7. **Receipt Scanning**: 
 	   - [Receipt-Wrangler](https://github.com/Receipt-Wrangler) 
 	   - [Expense-Tracker + OCR](https://github.com/shubham99bisht/Expense-Tracker) 
-6. **Gift Card Generation**: [Bannerbear Guide](https://www.bannerbear.com/blog/how-to-auto-generate-unique-gift-cards-with-open-ai-and-bannerbear-nodejs/) 
-7. **Blockchain Helpdesk**: 
+8. **Gift Card Generation**: [Bannerbear Guide](https://www.bannerbear.com/blog/how-to-auto-generate-unique-gift-cards-with-open-ai-and-bannerbear-nodejs/) 
+9. **Blockchain Helpdesk**: 
        - [DigiByte JS](https://github.com/RenzoDD/digibyte-js) 
        - [Digi-ID Protocol](https://medium.com/geekculture/digi-id-a-blockchain-based-open-authentication-protocol-14f60446e39e)
 
+### NLP User Persona:
+   - Comprehensive tools and examples for building scalable, state-of-the-art natural language processing systems, supporting tasks such as named entity recognition, sentiment analysis, and text classification with robust model implementations and pre-trained embeddings​
+		1. **Repository**: [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)
+		2. **Repository**: [NLP Recipes](https://github.com/microsoft/nlp-recipes)
+		3. **Repository**: [FLair](https://github.com/flairNLP/flair)
 
 ### Payment App:
    - A payment and bills management app, key features include social login with Google, Firebase MLKit for QR code reading, camera usage, bill registerationwith details like ticket name, maturity data, price and QR code and the ability to query statements. Built with Flutter.
@@ -63,11 +73,16 @@
 - Dart SDK
 - Firebase
 - OpenAI
+- Apache Spark
+- PyTorch
 - Access to a DigiByte node 
 
 ### Step-by-Step Guide
 ####  Clone the Repositories 
 ```bash 
+git clone https://github.com/JohnSnowLabs/spark-nlp
+git clone https://github.com/microsoft/nlp-recipes
+git clone https://github.com/flairNLP/flair
 git clone https://github.com/felipecastrosales/payflow 
 git clone https://github.com/Bahi-Khata-App/Bahi-Khata 
 git clone https://github.com/Spikeysanju/Expenso 
