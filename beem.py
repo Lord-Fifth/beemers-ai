@@ -7,7 +7,7 @@ def generate_spending_insights(transaction_history):
     # Prepare the prompt with user's transaction history
     prompt = f"Provide personalized spending insights and budgeting advice based on the following transaction history: {transaction_history}"
     client = OpenAI(
-    api_key='sk-proj-3BZCX2M7XwLxMB4SjMHfT3BlbkFJDGRkHIOreU2iUsWgIaO9'
+    api_key='xxxxx'
     )
     # Call the OpenAI API using the updated method
     response = client.chat.completions.create(
